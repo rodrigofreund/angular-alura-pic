@@ -1,3 +1,2 @@
-<ap-photo url="https://www.infoescola.com/wp-content/uploads/2010/06/tigre-de-bengala-60322900.jpg" description="tigre"></ap-photo>
-<ap-photo url="https://static.todamateria.com.br/upload/le/ao/leaojuba-cke.jpg" description="leão"></ap-photo>
+<ap-photo *ngFor="let photo of photos" [url]="photo.url" [description]="photo.description"></ap-photo>
 

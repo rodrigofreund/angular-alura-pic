@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "alura-pic"
+    }
+  },
+  "defaultProject": "alura-pic",
+  "cli": {
+    "analytics": "202eaf18-8268-4fe8-83ef-21169879e24d"
+  }
 }
